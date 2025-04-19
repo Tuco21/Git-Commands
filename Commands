@@ -1,0 +1,60 @@
+## 🧰 Comandos Más Usados de Git Bash
+
+### 📁 Navegación y Manejo de Archivos
+
+| Comando | Explicación |
+|--------|-------------|
+| `pwd` | Muestra el directorio actual (print working directory). |
+| `ls` | Lista los archivos y carpetas del directorio actual. |
+| `cd nombre_carpeta` | Entra a una carpeta específica. |
+| `cd ..` | Sube un nivel en la estructura de carpetas. |
+| `mkdir nombre` | Crea una nueva carpeta. |
+| `touch archivo.ext` | Crea un nuevo archivo vacío. |
+| `rm archivo.ext` | Elimina un archivo. |
+| `rm -r carpeta` | Elimina una carpeta y su contenido. |
+
+---
+
+### 🔄 Comandos de Git
+
+#### 📌 Configuración Inicial
+
+| Comando | Explicación |
+|--------|-------------|
+| `git config --global user.name "Tu Nombre"` | Configura tu nombre de usuario para Git. |
+| `git config --global user.email "correo@ejemplo.com"` | Configura tu email. |
+
+#### 📂 Inicializar y Clonar Repositorios
+
+| Comando | Explicación |
+|--------|-------------|
+| `git init` | Inicia un nuevo repositorio Git en la carpeta actual. |
+| `git clone url` | Clona un repositorio remoto a tu computadora. |
+
+#### 📀 Guardar y Ver Cambios
+
+| Comando | Explicación |
+|--------|-------------|
+| `git status` | Muestra el estado de los archivos (modificados, no rastreados, etc). |
+| `git add archivo` | Añade un archivo al "staging area". |
+| `git add .` | Añade todos los cambios. |
+| `git commit -m "mensaje"` | Guarda un snapshot del estado actual con un mensaje. |
+| `git log` | Muestra el historial de commits. |
+
+#### 🔄 Sincronizar con Repositorio Remoto
+
+| Comando | Explicación |
+|--------|-------------|
+| `git pull` | Trae los últimos cambios del repositorio remoto. |
+| `git push` | Envía tus cambios al repositorio remoto. |
+
+#### 🌿 Ramas (Branches)
+
+| Comando | Explicación |
+|--------|-------------|
+| `git branch` | Lista las ramas existentes. |
+| `git branch nombre_rama` | Crea una nueva rama. |
+| `git checkout nombre_rama` | Cambia a otra rama. |
+| `git checkout -b nueva_rama` | Crea y cambia a una nueva rama. |
+| `git merge nombre_rama` | Fusiona una rama con la actual. |
+
